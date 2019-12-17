@@ -8,7 +8,7 @@ function main() {
         locatunnel({
             port: 2000,
             host: 'http://lt.imcks.cn:2000',
-            subdomain: 'phs-remote'
+            subdomain: 'phs-remote2'
         })
     } catch(e) {
         debug('retry...', e)
